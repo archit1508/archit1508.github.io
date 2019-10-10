@@ -1,0 +1,135 @@
+
+.wrapper{
+	display: flex;
+	align-items: stretch;
+}
+.con1{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.con2{
+	padding-left:4rem;
+	padding-right: 4rem;
+	background-color: #fdfdfd;
+}
+.row-message{
+	padding: 1rem;
+	background-color: #f9fbfb;
+}
+.row-footer{
+	background-color: #ffffff;
+}
+.social-footer{
+}
+/*NAVBAR*/
+.sidebar{
+	min-height: 100vh;
+	width: 70px;
+}
+.sidebar .nav-link{
+	color:black;
+	font-size: 1.6em;
+}
+.sidebar .nav-link.active{
+	font-size: 2em;
+	color: #45bcb2;
+	border:none;
+	border-radius: 0;
+	border-right: 5px solid #45bcb2;
+}
+.navbar{
+	padding: .5rem 4rem;
+	box-shadow: 0px 0px 6px -4px #999999;
+}
+.ul-sidebar{
+	margin-top: 6rem;
+}
+.ul-sidebar li{
+	padding: 1rem 0rem;
+	width: 100%;
+	margin: auto;
+}
+/*Text*/
+.navbar li i, .navbar a{
+	color:#000000;
+}
+.heading{font-family: roboto;}
+.h-message,.p-message,.b-message{
+	padding: 0.5rem 0;
+}
+.h-content{
+	padding: 4rem 0;
+	font-size: 2.2em;
+	font-weight: 400;
+}
+.h-message{
+	font-weight: 300;
+	font-size: 1.2em;
+	color:#45bcb2;
+}
+.p-message{
+	font-weight: 300;
+	font-size: 0.9em;
+	padding-right: 9rem;
+}
+.p-message span a{
+	text-decoration: underline;
+	color: #000000;
+
+}
+.b-message,.b-card{
+	border:1px solid #45bcb2;
+	padding: 0.5rem 0;
+	font-size: 0.9rem;
+	color:#45bcb2;
+	margin-bottom: 0.5rem;
+}
+.b-message{
+	padding: 0.5rem 2rem;
+}
+.b-message:hover,.b-card:hover{
+	background-color: #45bcb2;
+	color: #ffffff !important;
+}
+.b-card{
+	padding: 0.5rem 3rem;
+}
+.card-text{
+	font-size: 0.8rem;
+	color: #999999;
+	padding: 1rem 0;
+}
+/*CARDS*/
+.card-title-sub{
+	display: block;
+}
+.crd-txt{
+	vertical-align: middle; 
+    display: inline-block;
+}
+.crd-txt{
+	margin: -1rem 0 0 1.5rem;
+}
+.card{
+	border:none;
+	padding: 1rem 1rem;
+}
+.card-deck{
+	margin: 2rem 0;
+}
+.last-card{
+	max-width: 31%;
+}
+.card:hover{
+	box-shadow: 0px 0px 15px #d2d2d2;
+}
+.card:hover .card-title, .card:hover i{
+	color: #45bcb2;
+}
+/*FOOTER*/
+.row-footer, .row-footer a{
+	color: #999999;
+}
+.social-icons:hover{
+	color: #000000;
+}
